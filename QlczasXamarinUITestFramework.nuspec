@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Qlczas.XamarinUITestFramework</id>
+    <version>1.0.0</version>
+    <title>Qlczas.XamarinUITestFramework</title>
+    <authors>Mateusz Ćwikła</authors>
+    <owners>Q-Corp</owners>
+     <dependencies>
+        <dependency id="Xamarin.UITest" version="2.0.9"/>  
+        <dependency id="nunit.framework" version="2.6.3"/>
+    </dependencies>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Test Framework using Xamarin.UITests and PageObject like approach.
+    Used to create E2E tests for iOS and Droid applications.</description>
+    <releaseNotes>
+        v1.0.0 - First version: basic BasePage.cs with methods for Mobile and WebView elements interactions. 
+        BasePageWithLogin.cs class including also Credentials handling methods.
+    </releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Xamarin UITests PageObject Test Automation</tags>
+  </metadata>
+  <files>
+    <file src="QlczasXamarinUITestFramework/bin/Release/QlczasXamarinUITestsFramework.dll" target="lib/net461" />
+    <file src="readme.txt" target=""/>
+  </files>
+</package>
