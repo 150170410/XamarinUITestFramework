@@ -28,3 +28,10 @@ Xamarin.Calabash.Start();
 3. Page classes you create should be inheriting the SolidBrain.XUITFramework.Framework.BasePage.cs 
    or BasePageWithLogin.cs - if you would like to read credentials from embedded .txt file 
 4. Also in the iOS project of your app, compiler in Debug should have ENABLE_TEST_CLOUD; added to defined Constants
+
+In Folder ExampleClasses
+you can find some simple test & page classes that are using the framework, showing how it should be implemented in your projects. Please check the following files:
+ExampleProjectBasePage.cs
+ExampleLoginBasePage.cs
+ExampleTest.cs
+ExampleTestConfiguration.cs
